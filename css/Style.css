@@ -663,6 +663,11 @@ body {
     flex-direction: column;
 }
 
+.quoter__quo { 
+    display: flex;
+
+}
+
 .quote__text { 
     font-family: 'Poppins';
     font-style: normal;
@@ -683,14 +688,14 @@ body {
     color: #070707;
     width: 177px;
     height: 24px;
+    margin-left: 5px;
 }
 
 .quote__span { 
     color: #5D6564;
 }
 
-.quote__btn { 
-    margin: 0 auto; 
+.quote__btn {  
     display: flex;
     margin-top: 52px;
 }
@@ -804,50 +809,30 @@ body {
     transition: 0.3s ease-in-out;
 }
 
-.footer { 
-    margin: 0 auto;
+.footer__inf { 
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    margin-top: 131px;
 }
 
 .footer__logo { 
-    margin: 0 auto;
-    margin-top: 142px;
-    margin-right: 144px;
+    width: 127px;
+    height: 37px;
 }
 
-.footer__title { 
-    font-family: 'Poppins';
-    font-style: normal;
+.footer-nav__title { 
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
     color: #2E2E2E;
-    margin-bottom: 25px;
+    margin-bottom: 24px;
 }
 
-.footer-item__col { 
-    margin: 0 auto;
-    display: flex;
-    align-content: stretch;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: stretch;
-    flex-wrap: wrap;
+.footer-nav__item { 
+    margin-bottom: 18px;
 }
 
-.footer-item__col:not(:last-child) { 
-    margin-right: 75px;
-}
-
-.footer-item { 
-    margin-bottom: 20px;
-}
-
-.footer__link { 
-    font-family: 'Poppins';
-    font-style: normal;
+.footer-nav__links { 
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -855,30 +840,15 @@ body {
     cursor: pointer;
 }
 
-.footer__social { 
-    margin: 0 auto;
-    float: right;
+.copyright { 
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-.footer__social-title { 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
+.copyright__text { 
+    font-weight: 400;
     font-size: 18px;
     line-height: 27px;
-    color: #2E2E2E;
-    margin-bottom: 18px;
-}
-
-.footer__social-item { 
-    margin-bottom: 18px;
-}
-
-.footer__social-link { 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #535353;
+    color: #B0B5B4;
 }
