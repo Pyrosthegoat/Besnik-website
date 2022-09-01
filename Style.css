@@ -230,7 +230,6 @@ body {
 }
 
 .content__img { 
-    margin: 0 auto;
     position: relative;
     width: 576px;
     height: 631px;
